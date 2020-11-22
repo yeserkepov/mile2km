@@ -15,6 +15,7 @@
 		CEDA6CC22567B21D00285877 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDA6CC02567B21D00285877 /* LaunchScreen.storyboard */; };
 		CEDA6CCD2567B21D00285877 /* mile2kmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA6CCC2567B21D00285877 /* mile2kmTests.swift */; };
 		CEDA6CD82567B21D00285877 /* mile2kmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA6CD72567B21D00285877 /* mile2kmUITests.swift */; };
+		CEDA6CED2567DEDD00285877 /* TextPropertiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA6CEC2567DEDD00285877 /* TextPropertiesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CEDA6CD32567B21D00285877 /* mile2kmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mile2kmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDA6CD72567B21D00285877 /* mile2kmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mile2kmUITests.swift; sourceTree = "<group>"; };
 		CEDA6CD92567B21D00285877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDA6CEC2567DEDD00285877 /* TextPropertiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPropertiesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		CEDA6CB42567B21C00285877 /* mile2km */ = {
 			isa = PBXGroup;
 			children = (
+				CEDA6CE82567DEA800285877 /* view */,
 				CEDA6CB52567B21C00285877 /* AppDelegate.swift */,
 				CEDA6CB72567B21C00285877 /* SceneDelegate.swift */,
 				CEDA6CB92567B21C00285877 /* ViewController.swift */,
@@ -126,6 +129,14 @@
 				CEDA6CD92567B21D00285877 /* Info.plist */,
 			);
 			path = mile2kmUITests;
+			sourceTree = "<group>";
+		};
+		CEDA6CE82567DEA800285877 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA6CEC2567DEDD00285877 /* TextPropertiesView.swift */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEDA6CED2567DEDD00285877 /* TextPropertiesView.swift in Sources */,
 				CEDA6CBA2567B21C00285877 /* ViewController.swift in Sources */,
 				CEDA6CB62567B21C00285877 /* AppDelegate.swift in Sources */,
 				CEDA6CB82567B21C00285877 /* SceneDelegate.swift in Sources */,

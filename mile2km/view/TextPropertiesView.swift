@@ -7,7 +7,6 @@
 
 import UIKit
 
-@IBDesignable
 class TextProperties: UITextView {
         
         override func prepareForInterfaceBuilder() {
@@ -22,19 +21,11 @@ class TextProperties: UITextView {
         func customeView () {
             backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.3)
             textAlignment = .center
-            layer.cornerRadius = 5.5
             
+            layer.cornerRadius = 5.5
+            textColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
             clipsToBounds = true
-                 
-//            if placeholder == nil {
-//            placeholder = "nil"
-//            }
-//            
-//            let place = NSAttributedString(string: placeholder!, attributes: [.foregroundColor: UIColor.white] )
-//            attributedPlaceholder = place
-//            textColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
-        
-            }
+        }
     
 }
     
